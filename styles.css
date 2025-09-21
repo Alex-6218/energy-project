@@ -1,0 +1,17 @@
+
+object#usMapObject {
+  width: 960px;
+  border: 1px solid #ccc;
+}
+
+path {
+  fill: lightgray;
+  stroke: #333;
+  stroke-width: 1;
+  cursor: pointer;
+  transition: fill 0.2s;
+}
+
+path:hover {
+  fill: #FFA500;
+}

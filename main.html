@@ -1,0 +1,24 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Interactive US Map</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <h1>Interactive U.S. Map</h1>
+
+  <!-- Embed the external SVG map file -->
+  <object id="usMapObject"
+          type="image/svg+xml"
+          data="us-map.svg">
+    <!-- Fallback in case object fails -->
+    Your browser does not support SVG maps.
+  </object>
+
+  <div id="infoBox" style="display:none; padding:10px; border:1px solid #333; margin-top:20px;"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
