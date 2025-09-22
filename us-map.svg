@@ -9,8 +9,7 @@
 .dccircle {display:none}                      /* set display to yes to show the circle for the District of Columbia, or none to hide it */
 .separator1 {stroke:#B0B0B0; stroke-width:2} /* color and width of lines around Alaska and Hawaii */
 
-.tx:hover, .ca:hover, .la:hover, .fl:hover,
-.al:hover, .ak:hover, .az:hover, .ar:hover, .co:hover, .ct:hover, .de:hover, .ga:hover, .hi:hover, .id:hover, .il:hover, .in:hover, .ia:hover, .ks:hover, .ky:hover, .me:hover, .md:hover, .ma:hover, .mi:hover, .mn:hover, .ms:hover, .mo:hover, .mt:hover, .ne:hover, .nv:hover, .nh:hover, .nj:hover, .nm:hover, .ny:hover, .nc:hover, .nd:hover, .oh:hover, .ok:hover, .or:hover, .pa:hover, .ri:hover, .sc:hover, .sd:hover, .tn:hover, .ut:hover, .vt:hover, .va:hover, .wa:hover, .wv:hover, .wi:hover, .wy:hover, .dc:hover {
+.state path:hover{
   fill: #FFA500;                               /* color when hovering over a state */
   cursor: pointer;                            /* cursor type when hovering over a state */
   transition: fill 0.2s;               /* smooth transition for hover effect */
